@@ -1,6 +1,6 @@
 # 柴今栋
 
- **电话**：13811345679| **邮箱**：[chaijindong@139.com](mailto:chaijindong@139.com)| **求职意向**：运维工程师
+**邮箱**：[cjd@uclond.com](mailto:cjd@uclond.com)| **求职意向**：运维工程师
 
 ------
 
