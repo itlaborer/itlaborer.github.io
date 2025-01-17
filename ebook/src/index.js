@@ -14,8 +14,8 @@ addEventListener('fetch', event => {
 	
 	// 如果请求是远程 Markdown 文件，重定向到相应的文件
 	if (url.pathname.endsWith('.md')) {
-	  const basepath = 'https://raw.githubusercontent.com/itlaborer/itlaborer.github.io/refs/heads/master';
-	  const remoteMD = ` ${basepath}${url.pathname}`;
+	  const basepath = 'https://itlaborer.github.io/books';
+	  const remoteMD = `${basepath}${url.pathname}`;
 	  const response = await fetch(remoteMD)
 	  const mdContent = await response.text()
 	  return new Response(mdContent, { headers: { 'Content-Type': 'text/markdown' } })
@@ -44,17 +44,18 @@ addEventListener('fetch', event => {
 		  window.$docsify = {
 			name: 'OPS笔记',
 			repo: 'https://itlaborer.github.io/',  // 如果有 GitHub 仓库可以提供链接
-			basePath:'https://raw.githubusercontent.com/itlaborer/itlaborer.github.io/refs/heads/master/books/',
-  
 			loadSidebar: true,  // 启用侧边栏
 			loadNavbar: true,
 			// 封面支持，默认加载的是项目根目录下的_coverpage.md文件
 			coverpage: true,
 			// 最大支持渲染的标题层级
 			subMaxLevel: 4,  // 子目录最大显示层级
-			alias: {
-			  '/*/README.md': 'https://raw.githubusercontent.com/itlaborer/itlaborer.github.io/refs/heads/master/books/README.md',
-			},
+			footer: {
+				copy: '© 2025 Chkov',
+				auth: 'Created by CloudFlare',
+				pre: '<hr>',
+				style: 'text-align: center;',
+			  }
 		  }
 		</script>
 		<!-- docsify的js依赖 -->
@@ -65,6 +66,7 @@ addEventListener('fetch', event => {
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 		<!-- 搜索功能支持 -->
 		<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+		<script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 	  </body>
 	  </html>
 	`
