@@ -5,4 +5,8 @@
   * [PromQL学习指南](PromQL学习指南.md)
   * [AI知识管理工具大比拼](AI知识管理工具大比拼.md)
 
+* 演示菜单
+  * [演示1](demo1.md)
+  * [demo2](demo2.md)
+
 
