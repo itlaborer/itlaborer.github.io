@@ -14,7 +14,7 @@ addEventListener('fetch', event => {
 	
 	// 如果请求是远程 Markdown 文件，重定向到相应的文件
 	if (url.pathname.endsWith('.md')) {
-	  const basepath = 'https://itlaborer.github.io/books';
+	  const basepath = 'https://raw.githubusercontent.com/itlaborer/itlaborer.github.io/refs/heads/master/books';
 	  const remoteMD = `${basepath}${url.pathname}`;
 	  const response = await fetch(remoteMD)
 	  const mdContent = await response.text()
