@@ -10,3 +10,4 @@
   * [demo2](demo2.md)
 
 
+  - [### 标题：**Chocolatey：Windows用户的福音，包管理工具的革命性突破**](2025-01-20chocolatey包管理工具.md)
