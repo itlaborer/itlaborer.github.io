@@ -11,3 +11,4 @@
 
 
   - [### 标题：**Chocolatey：Windows用户的福音，包管理工具的革命性突破**](2025-01-20chocolatey包管理工具.md)
+  * [### 标题：**Chocolatey：Windows用户的包管理神器，让软件安装变得如此简单！**](2025-01-20_10-17-59_chocolatey包管理工具.md)
