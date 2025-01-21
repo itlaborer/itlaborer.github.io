@@ -1,6 +1,6 @@
 ﻿<!-- _coverpage.md -->
 
-![logo](https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/202009/_media/icon.svg)
+![logo](https://raw.githubusercontent.com/itlaborer/itlaborer.github.io/refs/heads/master/src/book.chkov.com.jpg)
 
 # 老柴书店 <small>v0.0.1</small>
 
