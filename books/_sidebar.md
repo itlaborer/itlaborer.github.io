@@ -14,6 +14,7 @@
   * [一条自引用 SQL，把整张表冲掉了](Hive%E8%87%AA%E5%BC%95%E7%94%A8%E8%A6%86%E7%9B%96%E6%95%B0%E6%8D%AE%E4%B8%A2%E5%A4%B1.md)
   * [5.5T 的 pgsql_tmp，先别急着删文件](%E4%BA%94%E7%82%B9%E4%BA%94%E4%B8%AAT%E7%9A%84%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6.md)
   * [pgsql_tmp 到底在写什么：从 work_mem 到落盘](pgsql_tmp%E5%88%B0%E5%BA%95%E5%9C%A8%E5%86%99%E4%BB%80%E4%B9%88.md)
+  * [Hive 作业被杀之后，如何确认表目录到底少了什么](Hive%E4%BD%9C%E4%B8%9A%E8%A2%AB%E6%9D%80%E5%90%8E%E8%A1%A8%E7%9B%AE%E5%BD%95%E6%A0%B8%E6%9F%A5.md)
 
 * 学习笔记
 
